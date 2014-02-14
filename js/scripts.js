@@ -27,7 +27,7 @@
     var ul = ele.parentNode;
     console.log(ul);    
         
-    // INIT
+    // INIT FUNCTION
     window.onload = function _INIT() {
     
         var pager;
