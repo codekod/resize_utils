@@ -57,6 +57,7 @@
     // check for mobile devices
     var check = {mobile:function(){return navigator.userAgent.match(/Android|BlackBerry|iPhone|iPad|iPod|iOS|Opera Mini|IEMobile/i);}};
     
+    //addeventlistener ie8 comp
     var on = function(elem, type, eventHandle) {
         if (elem === null || elem === undefined) return;
         if ( elem.addEventListener ) {
