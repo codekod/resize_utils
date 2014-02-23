@@ -22,7 +22,7 @@
     var n_ele = Math.floor(ul_nh / one);
     var ele_o = eles.length - n_ele;
     console.log('you can see ' + n_ele + ' out of ' + eles.length + ' items');
-    console.log('and hide ' + ele_o);   
+    console.log('and hide ' + ele_o + ' items');   
     
     var ul = ele.parentNode;
     console.log(ul);    
