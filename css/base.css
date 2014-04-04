@@ -45,6 +45,7 @@ body article b {font-weight:normal}
 .pager {height:35px; width:100%; background:#ccc}
 
 @media only screen and (max-width: 400px) {
+  /** css if screen width below 400 **/
 }
 
 
