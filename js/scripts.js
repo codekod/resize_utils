@@ -81,7 +81,7 @@
         }
     }
      
-    // RESIZED
+    // RESIZING
     function _RESIZING() {
         var w = window,
             d = document,
@@ -131,15 +131,15 @@
         
     };
         
-    // this occurs when app viewed on mobile    
+    // this occurs when app is viewed on mobile    
     function onMobile() {
         g.style.backgroundColor="red";
     };    
         
-    // if mobile start onMobile
+    // if on mobile start onMobile
     if(check.mobile())onMobile();
     
-   // on resize start resized
+   // on resize start resizing
    on(window, "resize", function() {
        _RESIZING();      
    });
