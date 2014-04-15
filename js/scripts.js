@@ -81,7 +81,7 @@
         }
     }
      
-    // RESIZING
+    // RESIZING to test on webkits
     function _RESIZING() {
         var w = window,
             d = document,
@@ -144,10 +144,4 @@
        _RESIZING();      
    });
 
-
-
-
-
-    
-    
 })();
